@@ -1,30 +1,30 @@
 
-import React from "react";
-import { Row } from "react-bootstrap";
+// import React from "react";
+// import { Row } from "react-bootstrap";
 
 
-export default function RestaurantCards() {
-    return(
-        <React.Fragment>
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="..." />
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <Row>
-  <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="..." />
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  </div>
-  </Row>
-</div>
+// export default function RestaurantCards() {
+//     return(
+//         <React.Fragment>
+//         <div class="card" style="width: 18rem;">
+//   <img src="..." class="card-img-top" alt="..." />
+//   <div class="card-body">
+//     <h5 class="card-title">Card title</h5>
+//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//     <a href="#" class="btn btn-primary">Go somewhere</a>
+//   </div>
+//   <Row>
+//   <div class="card" style="width: 18rem;">
+//   <img src="..." class="card-img-top" alt="..." />
+//   <div class="card-body">
+//     <h5 class="card-title">Card title</h5>
+//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//     <a href="#" class="btn btn-primary">Go somewhere</a>
+//   </div>
+//   </div>
+//   </Row>
+// </div>
 
-        </React.Fragment>
-    )
-}
+//         </React.Fragment>
+//     )
+// }

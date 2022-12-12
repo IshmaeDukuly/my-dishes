@@ -89,3 +89,17 @@
   float: left;
   font-family: system-ui;;
 }
+
+#container{
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  padding: 100%;
+  background-color: blue;
+}
+
+.wrapper{
+  margin-top: 350px;
+  background: #fff;
+  border: 2px solid gray;
+}
