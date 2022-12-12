@@ -82,3 +82,10 @@
   padding: 18%;
   height: 18%;
 }
+
+.banner-text{
+  color: #fff;
+  font-size: 25px;
+  float: left;
+  font-family: system-ui;;
+}
