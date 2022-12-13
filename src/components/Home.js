@@ -1,5 +1,6 @@
 import React from "react"
 
+
 export default function Home() {
     return(
         <React.Fragment>
@@ -12,7 +13,7 @@ export default function Home() {
                 </div>
                 </article>
                 </div>
-               <div id="containers">
+                <div id="containers">
                     <div className="wrapper">
                     <h1>Hello World</h1>
                     </div>
@@ -20,6 +21,17 @@ export default function Home() {
                     <h1>Hello World</h1>
                     </div>
                     <div className="wrapper">
+                    <h1>Hello World</h1>
+                    </div>
+               </div>
+               <div id="container">
+                    <div className="wrappers">
+                    <h1>Hello World</h1>
+                    </div>
+                    <div className="wrappers">
+                    <h1>Hello World</h1>
+                    </div>
+                    <div className="wrappers">
                     <h1>Hello World</h1>
                     </div>
                </div>

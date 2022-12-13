@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,105 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar{
+  background: blue;
+  height: 50%;
+  width: 100%;
+  position: static;
+  margin-right: 150px;
+  border-bottom: solid 2px gray;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  opacity: .9;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar>ul{
+  list-style: none;
+  float: right;
+  font-size: 1.2rem;
+  display: flex;
+  text-decoration: none;
+}
+.navbar>ul>li{
+  color:  #fff;
+  margin: 10px;
+}
+
+.navbar>ul>li>a{
+   color: #fff;
+   text-decoration: none;
+}
+.navbar>ul>li>a:hover{
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.banner{
+  background-color: #cccccc;
+  background-image: url('https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80');
+  margin-top: 0;
+  width: 80%;
+  position: absolute;
+  padding: 18%;
+  height: 18%;
+}
+
+.banner-text{
+  color: #fff;
+  font-size: 25px;
+  float: left;
+  font-family: system-ui;;
+}
+
+#containers{
+  margin-top: 150px;
+  width: 30%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50%;
+  background-color: aliceblue;
+  
+}
+
+.wrapper{
+  background: red;
+  height: 100px;
+  padding: 150px;
+  margin: 15px;
+  
+}
+
+#container{
+  margin-top: 100px;
+  width: 30%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30%;
+  z-index: -5;
+  background-color: aliceblue;
+}
+
+.wrappers{
+  background: red;
+  height: 100px;
+  padding: 150px;
+  margin: 15px;
+  
 }
