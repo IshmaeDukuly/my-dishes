@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+// import bootstrap from 'bootstrap';
 import Home from './components/Home';
 import RestaurantCards from './components/RestaurantCards';
 
