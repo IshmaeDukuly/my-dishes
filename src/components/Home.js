@@ -13,26 +13,58 @@ export default function Home() {
                 </div>
                 </article>
                 </div>
+                <h1>See Our Plates</h1>
                 <div id="containers">
                     <div className="wrapper">
-                    <h1>Hello World</h1>
+                        <article>
+                            <p>
+                                this is one of our lesding plate here
+                                this is one of our lesding plate here
+                            </p>
+                        </article>
                     </div>
                     <div className="wrapper">
-                    <h1>Hello World</h1>
+                     <article>
+                            <p>
+                                this is one of our lesding plate here
+                                this is one of our lesding plate here
+                            </p>
+                        </article>
                     </div>
                     <div className="wrapper">
-                    <h1>Hello World</h1>
+                     <article>
+                            <p>
+                                this is one of our lesding plate here
+                                this is one of our lesding plate here
+                            </p>
+                        </article>
                     </div>
                </div>
+               <h1>See Our Plates</h1>
                <div id="container">
                     <div className="wrappers">
-                    <h1>Hello World</h1>
+                    <article className="text">
+                            <p>
+                                this is one of our lesding plate here
+                                this is one of our lesding plate here
+                            </p>
+                        </article>
                     </div>
                     <div className="wrappers">
-                    <h1>Hello World</h1>
+                      <article className="text">
+                            <p>
+                                this is one of our lesding plate here
+                                this is one of our lesding plate here
+                            </p>
+                        </article>
                     </div>
                     <div className="wrappers">
-                    <h1>Hello World</h1>
+                      <article className="text">
+                            <p>
+                                this is one of our lesding plate here
+                                this is one of our lesding plate here
+                            </p>
+                        </article>
                     </div>
                </div>
         </React.Fragment>

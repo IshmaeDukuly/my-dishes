@@ -74,42 +74,40 @@ code {
 }
 
 #containers{
-  margin-top: 400px;
-  width: 250px;
+  margin-top: 450px;
+  width: 100%;
+  overflow: hidden;
   display: flex;
   text-align: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
-  padding: 40%;
-  height: 100px;
-  background-color: aliceblue;
+  padding: 300px;
+  /* height: 40px; */
   
 }
 
 .wrapper{
+  /* margin-bottom: 300px; */
   background: red;
-  height: 100px;
-  padding: 150px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  width: 700px;
   margin: 15px;
-  
 }
 
 #container{
-  margin-bottom: 250px;
-  width: 50rem;
-  /* min-width: 600px; */
-  height: 100px;
+  width: 100%;
   display: flex;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  position: relative;
   justify-content: space-evenly;
-  padding: 250px;
-  background-color: aliceblue;
+  padding: 150px;
 }
 
 .wrappers{
@@ -117,8 +115,14 @@ code {
   background: red;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  padding: 150px;
+  position: relative;
+  height: 300px;
+  width: 700px;
   margin: 15px;
   
+}
+
+.text{
+  text-align: center;
+
 }
