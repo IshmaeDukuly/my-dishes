@@ -1,5 +1,5 @@
 import React from "react"; 
-
+// import { Link } from React-router-dom;
 
 export default function Navbar() {
     return(
@@ -8,7 +8,7 @@ export default function Navbar() {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">Restaurants</a></li>
-                    <li><a href="/">Online Purchase</a></li>
+                    <li><a href="/Online">Online Purchase</a></li>
                     <li><a href="/">Contact</a></li>
                 </ul>
             </div>
