@@ -89,13 +89,13 @@ code {
 }
 
 .wrapper{
-  background: red;
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 300px;
-  width: 750px;
-  margin: 15px;
+  height: 250px;
+  width: 800px;
+  margin: 20px;
+  border: 1px solid gray;
 }
 
 #container{
@@ -107,24 +107,23 @@ code {
   margin-right: auto;
   align-items: center;
   justify-content: space-evenly;
-  padding: 150px;
+  padding: 200px;
+ 
+}
+.my-image{
+  border-radius: 50% 50% 50% 50%;
+  width: 100%;
+  height: auto;
+
 }
 
 .wrappers{
   margin-bottom: 250px;
-  background: red;
   justify-content: center;
   align-items: center;
   height: 300px;
   width: 750px;
   margin: 15px;
-  
-}
-img {
-  width: 100%;
-  height: auto;
-}
-/* .text{
-  text-align: center;
 
-} */
+}
+

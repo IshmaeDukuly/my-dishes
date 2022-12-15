@@ -14,10 +14,10 @@ export default function Home() {
                 </article>
                 </div>
                 <h1>See Our Plates</h1>
-                <div id="containers">
+                <div id="containers" >
                     <div className="wrapper">
                         <article>
-                            <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
+                            <img className="my-image" src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
                             <p>
                                 this is one of our lesding plate here
                                 this is one of our lesding plate here
@@ -27,7 +27,7 @@ export default function Home() {
                     </div>
                     <div className="wrapper">
                      <article>
-                     <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
+                     <img className="my-image" src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
                             <p>
                                 this is one of our lesding plate here
                                 this is one of our lesding plate here
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                     <div className="wrapper">
                      <article>
-                     <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
+                     <img className="my-image" src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
                             <p>
                                 this is one of our lesding plate here
                                 this is one of our lesding plate here
@@ -50,7 +50,7 @@ export default function Home() {
                <div id="container">
                     <div className="wrappers">
                     <article className="text">
-                    <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
+                    <img className="my-image" src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
                             <p>
                                 this is one of our lesding plate here
                                 this is one of our lesding plate here
@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                     <div className="wrappers">
                       <article className="text">
-                      <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
+                      <img className="my-image" src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
                             <p>
                                 this is one of our lesding plate here
                                 this is one of our lesding plate here
@@ -70,7 +70,7 @@ export default function Home() {
                     </div>
                     <div className="wrappers">
                       <article className="text">
-                      <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
+                      <img className="my-image" src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"></img>
                             <p>
                                 this is one of our lesding plate here
                                 this is one of our lesding plate here

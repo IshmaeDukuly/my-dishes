@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import PurchaseOnline from './components/PurchaseOnline';
 import RestaurantCards from './components/RestaurantCards';
@@ -15,10 +16,10 @@ function App() {
       <switch>
         <Route exact path={"/"}>
         <Home />
-        <Route path='/online'>
+        <Route path='/Online'>
         <PurchaseOnline />
         </Route>
-        <Route path='/restaurants'>
+        <Route path='/Restaurants'>
         <RestaurantCards />
         </Route>
         </Route>
