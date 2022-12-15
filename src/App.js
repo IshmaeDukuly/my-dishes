@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import PurchaseOnline from './components/PurchaseOnline';
-// import RestaurantCards from './components/RestaurantCards';
+import RestaurantCards from './components/RestaurantCards';
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
         <Home />
         <Route path='/online'>
         <PurchaseOnline />
+        </Route>
+        <Route path='/restaurants'>
+        <RestaurantCards />
         </Route>
         </Route>
       </switch>

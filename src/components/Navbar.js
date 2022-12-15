@@ -1,15 +1,15 @@
 import React from "react"; 
-// import { Link } from React-router-dom;
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return(
         <React.Fragment>
             <div className="navbar">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Restaurants</a></li>
-                    <li><a href="/Online">Online Purchase</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Restaurants">Restaurants</Link></li>
+                    <li><Link to="/Online">Online Purchase</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>
 
