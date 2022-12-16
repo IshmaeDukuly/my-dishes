@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import PurchaseOnline from './components/PurchaseOnline';
 import RestaurantCards from './components/RestaurantCards';
 
